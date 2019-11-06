@@ -13,13 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Testing">
+      <UniqueIdentifier>{018a8ca9-b692-4531-8596-ff39dfdc1ff4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\glute\Desktop\glad\src\glad.c">
-      <Filter>Headerdateien</Filter>
-    </ClCompile>
     <ClCompile Include="Testing.cpp">
-      <Filter>Quelldateien</Filter>
+      <Filter>Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Headerdateien</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
