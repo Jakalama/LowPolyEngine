@@ -3,23 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowPolyEngine", "LowPolyEngine\LowPolyEngine.csproj", "{2770BE2B-1E55-4514-9D00-9E2AF6D344C6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LowPolyEngine", "LowPolyEngine\LowPolyEngine.vcxproj", "{DC38C391-DFB9-44C1-819D-2DA818CAE252}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2770BE2B-1E55-4514-9D00-9E2AF6D344C6}.Debug|x86.ActiveCfg = Debug|x86
-		{2770BE2B-1E55-4514-9D00-9E2AF6D344C6}.Debug|x86.Build.0 = Debug|x86
-		{2770BE2B-1E55-4514-9D00-9E2AF6D344C6}.Release|x86.ActiveCfg = Release|x86
-		{2770BE2B-1E55-4514-9D00-9E2AF6D344C6}.Release|x86.Build.0 = Release|x86
+		{DC38C391-DFB9-44C1-819D-2DA818CAE252}.Debug|x64.ActiveCfg = Debug|x64
+		{DC38C391-DFB9-44C1-819D-2DA818CAE252}.Debug|x64.Build.0 = Debug|x64
+		{DC38C391-DFB9-44C1-819D-2DA818CAE252}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC38C391-DFB9-44C1-819D-2DA818CAE252}.Debug|x86.Build.0 = Debug|Win32
+		{DC38C391-DFB9-44C1-819D-2DA818CAE252}.Release|x64.ActiveCfg = Release|x64
+		{DC38C391-DFB9-44C1-819D-2DA818CAE252}.Release|x64.Build.0 = Release|x64
+		{DC38C391-DFB9-44C1-819D-2DA818CAE252}.Release|x86.ActiveCfg = Release|Win32
+		{DC38C391-DFB9-44C1-819D-2DA818CAE252}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5DAA4136-3785-47E5-BEF0-EC8AE8A777A3}
+		SolutionGuid = {869633B6-7805-4060-9191-366B91AE5DF2}
 	EndGlobalSection
 EndGlobal
