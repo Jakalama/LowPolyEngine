@@ -1,2 +1,2 @@
 # LowPolyEngine
-A low polygon 3D game engine build ontop of the XNA framework.
+A low polygon 3D game engine build from scratch with OpenGL.
