@@ -16,13 +16,29 @@
     <Filter Include="Testing">
       <UniqueIdentifier>{018a8ca9-b692-4531-8596-ff39dfdc1ff4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4ee260fc-df93-44b9-9033-210107073f13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Testing.cpp">
-      <Filter>Testing</Filter>
-    </ClCompile>
     <ClCompile Include="glad.c">
       <Filter>Headerdateien</Filter>
     </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Testing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragment.fs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
