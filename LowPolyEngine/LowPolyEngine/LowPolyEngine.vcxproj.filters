@@ -46,5 +46,8 @@
     <ClInclude Include="shader.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
